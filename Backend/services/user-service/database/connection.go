@@ -4,9 +4,12 @@ import (
 	"fmt"
 	"os"
 
+	"user-service/models"
+
+	"gorm.io/driver/postgres"
+
 	/*"gorm.io/driver/postgres"*/
 	"gorm.io/gorm"
-	"user-service/models"
 )
 
 func Connect() *gorm.DB {
